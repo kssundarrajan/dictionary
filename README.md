@@ -1,7 +1,7 @@
 # Dictionary
 A simple drupal module to get definition of a word using api.dictionaryapi.dev
 
-Installation:
+# Installation
 Install this module as any other drupal module
 
 # Usage
