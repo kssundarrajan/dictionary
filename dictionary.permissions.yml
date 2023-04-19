@@ -1,0 +1,4 @@
+dictionary.view:
+  title: 'Access dictionary to search for definition'
+  description: 'Access dictionary to search for definition'
+  restrict access: true

@@ -175,7 +175,7 @@ use Exception;
           }
         }
       }
-      // For unknown words, we get an exception, throw an error.
+      // For unknown words, we get an exception, thnrow an error.
       catch (Exception $e) {
         $response = $this->t('Unable to find a definition for the given word. Please try a different word');
         $form['definition_output']['definition']['#markup'] = $response;

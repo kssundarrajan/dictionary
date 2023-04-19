@@ -4,4 +4,4 @@ dictionary.form:
       _form: 'Drupal\dictionary\Form\DictionaryDefinitionForm'
       _title: 'Dictionary'
     requirements:
-       _permission: 'access dictionary page'
+       _permission: 'dictionary.view'
