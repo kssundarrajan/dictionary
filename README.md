@@ -9,6 +9,6 @@ Setup permissions for the roles who want to use the dictionary under Admin -> Pe
 
 Go to "/dictionary" to access the form
 
-# Future improvement:
+# Future improvement
 
 Move api URL to configuration
