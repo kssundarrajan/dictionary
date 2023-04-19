@@ -89,6 +89,9 @@ use Exception;
    */
   public function submitForm(array &$form, FormStateInterface $form_state) { }
 
+  /**
+   * Function to get word definition through api call and return render array.
+   */
   public function findWordDefinition(array &$form, FormStateInterface $form_state) {
     $word = trim($form_state->getValue('word'));
 
@@ -172,7 +175,7 @@ use Exception;
           }
         }
       }
-      // For unknown words, we get an exception, thnrow an error.
+      // For unknown words, we get an exception, throw an error.
       catch (Exception $e) {
         $response = $this->t('Unable to find a definition for the given word. Please try a different word');
         $form['definition_output']['definition']['#markup'] = $response;
